@@ -6,7 +6,7 @@ A Torrent, youtube-dl Leecher, and Uploader!
 
 ### The Easy Way
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=devilminati/PublicLeech)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/devilminati/PublicLeech)
 
 ### The Legacy Way
 Simply clone the repository and run the main file:
