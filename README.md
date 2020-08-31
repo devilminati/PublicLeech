@@ -2,32 +2,11 @@
 
 A Torrent, youtube-dl Leecher, and Uploader!
 
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the [COPYING](./COPYING) for more details.
-
 ## installing
 
-### The Eas(iest) Way
+### The Easy Way
 
-- Install Docker by following the [official docker docs](https://docs.docker.com/engine/install/debian/)
-
-- Start docker daemon [skip if already running]:
-```sh
-dockerd
-```
-- Build Docker image:
-```sh
-docker build . -t public-leech
-```
-- Run the image:
-```sh
-docker run public-leech
-```
-
-It is not recommended to use "sudo", un-necessarily, in a GNU/Linux system.
-GNU/Linux Permissions are highly customisable, and it is generally not required to have "ROOT" permission, ~~unless you know what you are doing~~.
-You can still install all the dependencies in your system [with ROOT permissions], but please be aware of the potential issues when doing so. The installed packages may conflict with the system package manager's installed packages, which can cause trouble down the road and errors when upgrading conflicting packages.
-**You have been warned.**
-
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=devilminati/PublicLeech)
 
 ### The Legacy Way
 Simply clone the repository and run the main file:
